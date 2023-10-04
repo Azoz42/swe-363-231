@@ -1,0 +1,46 @@
+/* CSS 1 Exercise 1 */
+
+body {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+header {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+nav a {
+    color: #ffffff;
+}
+
+main {
+    background-color: #333333;
+}
+
+table {
+    background-color: #222222;
+    color: #ffffff;
+}
+
+table th {
+    background-color: #444444;
+}
+
+form label, form input, form textarea {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #00bcd4;
+}
+
+footer {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+a:hover {
+    color: #00bcd4;
+}
