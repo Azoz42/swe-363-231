@@ -1,5 +1,6 @@
 const SPEED = .02
 
+
 export default class Paddle {
     constructor(paddleElm){
         this.paddleElm = paddleElm

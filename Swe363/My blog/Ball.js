@@ -6,6 +6,8 @@ export default class Ball {
         this.reset()
     }
 
+    
+
     get x() {
         return parseFloat(getComputedStyle(this.ballElem).getPropertyValue("--x"))
     }
