@@ -8,6 +8,13 @@ body {
     font-weight: 400;
     line-height: 24px; 
 }
+.navbar{
+    display: flex;
+    width: 1216px;
+    padding: 10px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
 h3 {
     color: #C0C5D0;
 
