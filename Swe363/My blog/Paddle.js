@@ -1,3 +1,5 @@
+// JS 1 Exercise 1 
+
 const SPEED = .02
 
 

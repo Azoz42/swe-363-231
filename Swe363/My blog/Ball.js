@@ -1,3 +1,6 @@
+// JS 1 Exercise 1 
+
+
 const INITIAL_VELOCITY = .025
 const VELOCITY_INCREASE = 0.00001
 export default class Ball {

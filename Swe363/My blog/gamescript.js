@@ -1,3 +1,5 @@
+// JS 1 Exercise 1 
+
 import Ball from "./Ball.js";
 import Paddle from "./Paddle.js";
 
