@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const { copyFiles } = require('./fileOperations');
 const { startChatbot } = require('./chatbot');
+const myRoutes = require('./routes/myRoutes');
 
 const app = express();
 const port = process.env.PORT || 2;
@@ -21,6 +22,16 @@ app.get('/', async (req, res) => {
 app.get('/chatbot', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'chatbot.html'));
 });
+
+router.get('/about', (req, res) => {
+  res.send('This is the About Page.');
+});
+
+router.get('/contact', (req, res) => {
+  res.send('You can contact us at contact@example.com.');
+});
+
+module.exports = router;
 
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
